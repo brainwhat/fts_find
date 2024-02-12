@@ -1,2 +1,13 @@
-# fts_find
-Program that finds certain byte sequence in a directory
+lab11fvmN33532
+=======
+Программа, выполняющая поиск файлов в заданном каталоге, содержащих заданную последовательность байтов
+
+
+lab11fvmN33532.c
+Основной файл программы
+
+funcs.c
+Программа с функциями --help, --version
+
+testFiles
+Тестовые файлы. Часть записывались через текстовый редактор, часть через функцию вида echo -en '\xde\xad\xbe\xef' > path/to/file
